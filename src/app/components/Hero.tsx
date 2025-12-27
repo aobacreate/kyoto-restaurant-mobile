@@ -6,7 +6,7 @@ export default function Hero() {
           おいでやす。
         </h2>
 
-        <div className="mx-auto flex flex-col text-lg leading-relaxed">
+        <div className="mx-auto flex flex-col text-base leading-relaxed">
           <p>京都へお越しの折には</p>
           <p>店主自慢の京料理で</p>
           <p>おもてなしいたします。</p>

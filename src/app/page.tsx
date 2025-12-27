@@ -1,17 +1,14 @@
 import Image from "next/image";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import HomeNavButtons from "./components/HomeNavButtons";
-import Footer from "./components/Footer";
+import Header from "@/components/Header";
+import HomeNavButtons from "@/components/HomeNavButtons";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero />
-      {/* 写真セクション */}
-      <div className="relative w-96 h-[470px] overflow-hidden mx-auto mt-10">
+      <Header title="京都や" />
+      <div className="relative w-96 h-[320px] overflow-hidden mx-auto mt-6">
         <Image
           src="/images/hero.jpg"
           alt="京料理"
@@ -19,9 +16,21 @@ export default function Home() {
           className="object-cover object-bottom"
           priority
         />
-        {/* 黒のオーバーレイ */}
-        <div className="absolute inset-0 bg-black/5" />
+
+        {/* 文字を読みやすくするための濃いめオーバーレイ */}
+        <div className="absolute inset-0 bg-black/25" />
+
+        {/* 写真の上の文章 */}
+        <div className="absolute inset-0 flex flex-col justify-end p-5">
+          <h1 className="text-white text-xl font-semibold leading-tight">
+            京の旬を、静かに味わう
+          </h1>
+          <p className="text-white/90 text-sm mt-2">
+            祇園の小さな京料理店「京都や」
+          </p>
+        </div>
       </div>
+
       {/* HomeNavButtons セクション*/}
       <div className="mt-10">
         <HomeNavButtons />

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MenuText } from "./MenuText";
+import { MenuText } from "../menu/MenuText";
 
 type Props = {
   href: string;

@@ -1,5 +1,12 @@
-export default function Menu() {
+import LunchPageLayout from "@/components/lunch/LunchPageLayout";
+import { lunchItems } from "@/lib/menu-data";
+
+export default function LunchPage() {
   return (
-    <h1>seasonal</h1>
-  )
+    <LunchPageLayout
+      title="ランチ"
+      subtitle="昼のお品書き"
+      items={lunchItems}
+    />
+  );
 }

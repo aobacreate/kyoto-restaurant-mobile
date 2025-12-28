@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import Header from "@/components/Header";
-import HomeNavButtons from "@/components/HomeNavButtons";
-import Footer from "@/components/Footer";
+import Header from "@/components/common/Header";
+import HomeNavButtons from "@/components/top/HomeNavButtons";
+import Footer from "@/components/common/Footer";
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Header from "@/components/Header";
-import MenuTitle from "@/components/MenuTitle";
-import Footer from "@/components/Footer";
+import Header from "@/components/common/Header";
+import MenuTitle from "@/components/menu/MenuTitle";
+import MenuCard from "@/components/seasonal/MenuCard";
+import Footer from "@/components/common/Footer";
 
 export default function Seasonal() {
   return (
@@ -22,30 +22,4 @@ export default function Seasonal() {
   );
 }
 
-type Props = {
-  src: string;
-  name: string;
-  price: string;
-};
 
-function MenuCard({ src, name, price }: Props) {
-  return (
-    <div className="w-96 mx-auto flex flex-col gap-3">
-      {/* 写真 */}
-      <div className="relative h-[320px] overflow-hidden">
-        <Image
-          src={src}
-          alt={name}
-          fill
-          className="object-cover object-center"
-        />
-      </div>
-
-      {/* name / price */}
-      <div className="px-4 flex justify-between items-center">
-        <div>{name}</div>
-        <div>￥{price}</div>
-      </div>
-    </div>
-  );
-}

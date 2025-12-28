@@ -1,4 +1,4 @@
-import NavButton from "./NavButton";
+import NavButton from "../common/NavButton";
 
 export default function HomeNavButtons() {
   return (

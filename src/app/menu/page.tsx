@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Header from "@/components/Header";
-import NavButton from "@/components/NavButton";
-import MenuButtons from "@/components/MenuButtons";
-import Footer from "@/components/Footer";
+import Header from "@/components/common/Header";
+import NavButton from "@/components/common/NavButton";
+import MenuButtons from "@/components/menu/MenuButtons";
+import Footer from "@/components/common/Footer";
 
 export default function Menu() {
   return (

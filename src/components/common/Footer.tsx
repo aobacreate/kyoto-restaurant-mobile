@@ -1,5 +1,6 @@
 // src/app/components/Footer.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 type FooterProps = {
   showMap?: boolean; // 地図が入らない場合は false
@@ -15,13 +16,15 @@ export default function Footer({
   return (
     <footer className="w-full py-10 flex flex-col justify-start items-center gap-7 bg-[var(--color-header-bg)]">
       {/* ロゴ */}
-      <Image
-        src={logoSrc}
-        alt="京都や ロゴ"
-        width={72}
-        height={72}
-        className="object-contain"
-      />
+      <Link href="/" aria-label="トップページへ戻る">
+        <Image
+          src={logoSrc}
+          alt="京都や ロゴ"
+          width={72}
+          height={72}
+          className="object-contain"
+        />
+      </Link>
 
       {/* 地図（任意） */}
       {showMap && (

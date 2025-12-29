@@ -8,12 +8,13 @@ export default function Home() {
   return (
     <>
       <Header title="京都や" />
-      <div className="relative w-96 h-[320px] overflow-hidden mx-auto mt-6">
+      <div className="relative w-full max-w-[393px] h-[320px] overflow-hidden mx-auto mt-6">
         <Image
           src="/images/seasonal/hero.webp"
           alt="京料理"
           fill
           className="object-cover object-bottom"
+          sizes="(max-width: 393px) 100vw, 393px"
           priority
         />
 

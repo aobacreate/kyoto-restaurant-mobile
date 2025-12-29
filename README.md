@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kyoto Restaurant Web（SP版）
 
-## Getting Started
+京都レストランのスマートフォン向けWebサイトです。  
+Next.js と Tailwind CSS を用いて実装し、Vercel へデプロイしています。
 
-First, run the development server:
+## 🔗 公開URL
+- Webサイト（Vercel）：https://kyoto-restaurant-mobile.vercel.app
+- 制作ログ（ブログ）：https://aobacreate.net/daily-kyoto-restaurant-web-sp-deploy/
+
+## 🛠 使用技術
+- Next.js
+- Tailwind CSS
+- Vercel
+
+## 📱 制作内容
+- スマートフォン向けレストランWebサイトの実装
+- コンポーネント分割によるUI構築
+- 画像の軽量化（WebP対応）
+- レイアウト調整・表示最適化
+- Vercel を利用したデプロイ
+
+## 🚀 ローカルでの起動方法
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで以下にアクセスしてください。
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 備考
+- 本プロジェクトはcreate-next-appを使用して作成しています。
+- スマートフォン表示(幅393px基準)を想定して設計しています。

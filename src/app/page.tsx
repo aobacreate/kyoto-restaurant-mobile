@@ -10,7 +10,7 @@ export default function Home() {
       <Header title="京都や" />
       <div className="relative w-96 h-[320px] overflow-hidden mx-auto mt-6">
         <Image
-          src="/images/hero.jpg"
+          src="/images/seasonal/hero.webp"
           alt="京料理"
           fill
           className="object-cover object-bottom"

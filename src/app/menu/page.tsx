@@ -14,7 +14,7 @@ export default function Menu() {
       {/* 写真セクション */}
       <div className="relative w-96 h-[300px] overflow-hidden mx-auto">
         <Image
-          src="/images/hero.jpg"
+          src="/images/seasonal/hero.webp"
           alt="京料理"
           fill
           className="object-cover object-center"

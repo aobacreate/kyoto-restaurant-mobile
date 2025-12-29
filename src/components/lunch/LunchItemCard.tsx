@@ -17,7 +17,6 @@ export default function LunchItemCard({ title, price, imageSrc }: Props) {
           className="object-cover"
         />
       </div>
-
       <div className="mt-3 text-sm">{title}</div>
       <div className="mt-2 text-sm">¥ {price}</div>
     </div>

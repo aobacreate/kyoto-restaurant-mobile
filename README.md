@@ -24,9 +24,9 @@ Next.js と Tailwind CSS を用いて実装し、Vercel へデプロイしてい
 ```bash
 npm install
 npm run dev
-
+```
 ブラウザで以下にアクセスしてください。
-http://localhost:3000
+`http://localhost:3000`
 
 ## 備考
 - 本プロジェクトはcreate-next-appを使用して作成しています。

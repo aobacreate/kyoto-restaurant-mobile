@@ -4,8 +4,8 @@
 Next.js と Tailwind CSS を用いて実装し、Vercel へデプロイしています。
 
 ## 🔗 公開URL
-- Webサイト（Vercel）：https://kyoto-restaurant-mobile.vercel.app
-- 制作ログ（ブログ）：https://aobacreate.net/daily-kyoto-restaurant-web-sp-deploy/
+- [Webサイト（Vercel）](https://kyoto-restaurant-mobile.vercel.app)
+- [制作ログ（ブログ）](https://aobacreate.net/daily-kyoto-restaurant-web-sp-deploy/)
 
 ## 🛠 使用技術
 - Next.js
